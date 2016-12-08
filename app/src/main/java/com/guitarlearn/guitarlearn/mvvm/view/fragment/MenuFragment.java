@@ -4,12 +4,12 @@ import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.guitarlearn.guitarlearn.R;
+import com.guitarlearn.guitarlearn.common.FragmentHelper;
 import com.guitarlearn.guitarlearn.common.RecyclerViewEvents;
 import com.guitarlearn.guitarlearn.databinding.FragmentMenuBinding;
 import com.guitarlearn.guitarlearn.mvvm.adapter.MenuAdapter;
@@ -47,6 +47,6 @@ public class MenuFragment extends Fragment implements RecyclerViewEvents.Listene
 
     @Override
     public void onItemClick(String item, View v, int position) {
-
+        FragmentHelper.addFragment(getActivity(), R.id.home_container, new VideoListFragment());
     }
 }
