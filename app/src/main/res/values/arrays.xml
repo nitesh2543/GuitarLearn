@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="menu_items">
+        <item>Guitar description</item>
+        <item>Tuning</item>
+        <item>Videos</item>
+        <item>Notes</item>
+        <item>Rate</item>
+        <item>Settings</item>
+    </string-array>
+</resources>

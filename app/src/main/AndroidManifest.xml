@@ -23,9 +23,12 @@
         </activity>
         <activity
             android:name=".tunner.activity.SimpleGuitarTunerActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".mvvm.view.activity.BaseActivity"></activity>
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity android:name=".mvvm.view.activity.BaseActivity">
+
+        </activity>
     </application>
 
 </manifest>
