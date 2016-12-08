@@ -28,7 +28,7 @@ public class SimpleGuitarTunerActivity extends AppCompatActivity {
 
     // switch off gc logs.
     // System.setProperty("log.tag.falvikvm", "SUPPRESS");
-    public static final String TAG = "RealGuitarTuner";
+    public static final String TAG = "SimpleGuitarTunerActivity";
 
     private final boolean LAUNCHANALYZER = true;
 
@@ -209,4 +209,11 @@ public class SimpleGuitarTunerActivity extends AppCompatActivity {
             soundAnalyzer.stop();
     }
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event)  {
+        if (keyCode == KeyEvent.KEYCODE_BACK) {
+            finish();
+        }
+        return true;
+    }
 }

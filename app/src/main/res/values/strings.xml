@@ -3,4 +3,7 @@
     <string name="tuner_btn_text">Tune Your Guitar</string>
     <string name="tuningPlane">Tunign Plane</string>
     <string name="title_activity_simple_guitar_tuner">SimpleGuitarTunerActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
