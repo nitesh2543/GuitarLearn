@@ -7,6 +7,7 @@ public class Item {
 
     private int total;
     private int total1;
+    private int total2;
 
 
 }
