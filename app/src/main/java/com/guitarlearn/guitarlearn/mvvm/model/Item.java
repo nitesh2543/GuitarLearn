@@ -5,6 +5,6 @@ package com.guitarlearn.guitarlearn.mvvm.model;
  */
 public class Item {
 
-    public int total;
+    private int total;
 
 }
